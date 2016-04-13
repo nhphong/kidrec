@@ -3,10 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <com.eezy.kidrec.view.MultiPaneWindow
+        android:id="@+id/multi_pane_window"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello World"
-        android:textSize="50sp"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
